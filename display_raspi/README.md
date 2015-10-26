@@ -1,5 +1,3 @@
-Originally gotten from: https://arduinogeek.wordpress.com/2014/04/23/raspberry-pi-with-i2c-2004-lcd/
-
 1 - Enable and setup the I²C in Raspbian
 =
 Add the modules to the startup : :
@@ -47,3 +45,7 @@ Your display may have another address. I’ve seen #24 and #28 but it can be som
 `# LCD Address`
 
 `ADDRESS = 0x27`
+
+Originally gotten from: https://arduinogeek.wordpress.com/2014/04/23/raspberry-pi-with-i2c-2004-lcd/
+
+And https://github.com/CaptainStouf/raspberry_lcd4x20_I2C
